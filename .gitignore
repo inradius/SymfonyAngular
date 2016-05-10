@@ -36,9 +36,15 @@
 # Build data
 /build/
 
-# Composer PHAR
+# Composer
+/composer.lock
 /composer.phar
+
+# Angular
+/ng-app/.tmp/*
+!ng-app/.tmp/.gitkeep
+/ng-app/bower_components/
 
 .DS_Store
 .idea/
-composer.lock
+node_modules/
