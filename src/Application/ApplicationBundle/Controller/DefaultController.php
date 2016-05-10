@@ -12,6 +12,8 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('ApplicationBundle:Default:index.html.twig');
+        return $this->render('ApplicationBundle:Default:index.html.twig', array(
+            'env' => $this->container->get('kernel')->getEnvironment(),
+        ));
     }
 }
