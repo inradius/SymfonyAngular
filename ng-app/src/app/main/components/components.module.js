@@ -9,7 +9,7 @@
     .config(config);
 
   /** @ngInject */
-  function config(msNavigationServiceProvider)
+  function config()
   {
     // todo
   }
