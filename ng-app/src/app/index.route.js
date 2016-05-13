@@ -15,12 +15,13 @@
 
     var layouts = {
       verticalLayout: {
-        main: 'app/core/layouts/vertical.html'
+        main: 'app/core/layouts/vertical.html',
+        toolbar: 'app/toolbar/layouts/vertical-navigation/toolbar.html'
       }
     };
 
     $stateProvider
-      .state('app', {
+      .state('application', {
         abstract: true,
         views: {
           'main@': {
