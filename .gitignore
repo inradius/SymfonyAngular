@@ -45,6 +45,9 @@
 !ng-app/.tmp/.gitkeep
 /ng-app/bower_components/
 
+# Vagrant
+.vagrant
+
 .DS_Store
 .idea/
 node_modules/
