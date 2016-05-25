@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('app', [
+    .module('symfonyApp', [
       'app.core',
       'app.components'
     ]);
