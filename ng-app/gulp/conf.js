@@ -1,9 +1,11 @@
 var gutil = require('gulp-util');
 
 exports.paths = {
-    src : 'src',
-    dist: 'dist',
-    tmp : '.tmp'
+  src: 'src',
+  dist: '../../web/bundles/application',
+  view: '../../src/Application/ApplicationBundle/Resources/views',
+  tmp: '.tmp',
+  e2e: 'e2e'
 };
 
 exports.wiredep = {

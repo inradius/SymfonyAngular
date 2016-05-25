@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('symfonyApp')
+    .module('app')
     .run(runBlock);
 
   /** @ngInject */

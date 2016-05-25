@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('symfonyApp')
+    .module('app')
     .config(routeConfig);
 
   /** @ngInject */
