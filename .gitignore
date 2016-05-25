@@ -43,11 +43,11 @@
 # Angular
 /ng-app/.tmp/*
 !ng-app/.tmp/.gitkeep
-/ng-app/bower_components/
+bower_components/
+node_modules/
 
 # Vagrant
 .vagrant
 
 .DS_Store
 .idea/
-node_modules/
